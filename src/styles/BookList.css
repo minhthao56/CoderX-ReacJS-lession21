@@ -1,0 +1,40 @@
+.colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-list{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    margin-bottom: 20px;
+    color: #555555;;
+}
+.book-list img{
+    width: 100%;
+}
+.description, .price-detail, .button-cart{
+    padding: 0 15px 0 15px;
+}
+.button-cart {
+    padding-bottom: 15px;
+}
+.price-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.price-detail a{
+    text-decoration: none;
+    color: indigo;
+}
+.button-cart button{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
